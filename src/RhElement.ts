@@ -9,7 +9,10 @@ export class RhElement extends LitElement {
   render() {
     return html`
       <pfe-band>
-        <pfe-cta><a href="./demo/track-performance">Track Performance</a></pfe-cta>
+        <ul>
+          <li><pfe-cta><a href="./demo/core/track-performance">Track Performance</a></pfe-cta></li>
+          <li><pfe-cta><a href="./demo/core/number-list-converter">Number List Converter</a></pfe-cta></li>
+        </ul>
       </pfe-band>
     `;
   }

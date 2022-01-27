@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <title>PFE Number List Converter</title>
+  <style>
+    #todo-list,
+    #form {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+
+<body>
+	<h1>PFE Number List Converter</h1>
+
+  <p>A LitElement property converter which represents a list of numbers as a comma separated string.
+  Use commas to separate multiple indexes.<p>
+
+  <div>Run in console:</div>
+  <code>
+    <pre>document.querySelector('#todo-list').setAttribute('completed-index', '0, 1, 2');</pre>
+  </code>
+
+	<number-list-converter-example id="todo-list" completed-index="0,1"></number-list-converter-example>
+
+  <script type="module" src="./out-tsc/src/core/number-list-converter.js"></script>
+</body>
+
+</html>
