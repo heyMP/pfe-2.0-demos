@@ -12,6 +12,7 @@ export class RhElement extends LitElement {
         <ul>
           <li><pfe-cta><a href="./demo/core/track-performance">Track Performance</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/core/number-list-converter">Number List Converter</a></pfe-cta></li>
+          <li><pfe-cta><a href="./demo/functions/get-random-id">Random ID</a></pfe-cta></li>
         </ul>
       </pfe-band>
     `;
