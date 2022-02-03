@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <title>PFE Componsed Event</title>
+</head>
+
+<body>
+  <h1>PFE Componsed Event</h1>
+	<composed-event></composed-event>
+  <script type="module" src="./out-tsc/src/core/composed-event.js"></script>
+  <script>
+    const el = document.querySelector('composed-event');
+    el.addEventListener('increment', e => console.log(`The count is ${e.count} was increased from ${e.count - e.incAmount}.`));
+    el.addEventListener('reset', e => console.log(`The count has been reset`));
+  </script>
+</body>
+
+</html>
