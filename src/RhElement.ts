@@ -15,6 +15,7 @@ export class RhElement extends LitElement {
           <li><pfe-cta><a href="./demo/core/number-list-converter">Number List Converter</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/core/composed-event">Composed Event</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/functions/get-random-id">Random ID</a></pfe-cta></li>
+          <li><pfe-cta><a href="./demo/decorator/cascade-decorator">Cascade Decorator</a></pfe-cta></li>
         </ul>
       </pfe-band>
     `;
