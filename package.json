@@ -16,7 +16,7 @@
     "postinstall": "npm link @patternfly/pfe-core"
   },
   "dependencies": {
-    "lit": "^2.0.2",
+    "lit": "^2.1.2",
     "@patternfly/pfe-band": "^1.12.2",
     "@patternfly/pfe-cta": "^1.12.2"
   },
