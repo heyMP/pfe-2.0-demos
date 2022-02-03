@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <title>PFE Context API</title>
+</head>
+
+<body>
+  <h1>PFE Context API</h1>
+
+  <p>This is demoing a darkmode api brought to you by our Context API. This allows you to register providers and consumers which is meant to sync
+    properties between parent and child components regardless of how nest a child is in the DOM.
+  </p>
+
+	<darkmode-context darkmode provider>
+    <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+    <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+    <darkmode-context>
+      <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+      <darkmode-context consumer>
+        <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+        <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+      </darkmode-context>
+      <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+    </darkmode-context>
+    <p>Sunt nulla quis ut enim tempor. Enim minim veniam cupidatat consequat culpa dolor tempor do velit cupidatat qui eu anim. Dolor consectetur exercitation id ex reprehenderit ex proident minim excepteur laborum est. Voluptate ex adipisicing cupidatat consequat veniam enim dolor aute aute.</p>
+  </darkmode-context>
+  <script type="module" src="./out-tsc/src/core/context-api.js"></script>
+</body>
+
+</html>

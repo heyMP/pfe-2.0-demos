@@ -10,6 +10,7 @@ export class RhElement extends LitElement {
     return html`
       <pfe-band>
         <ul>
+          <li><pfe-cta><a href="./demo/core/context-api">Context API</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/core/track-performance">Track Performance</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/core/number-list-converter">Number List Converter</a></pfe-cta></li>
           <li><pfe-cta><a href="./demo/core/composed-event">Composed Event</a></pfe-cta></li>
