@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+
+  <title>Initializer Example</title>
+
+  <style>
+    code {
+      background-color: #eeeeee;
+      padding: 0 0.2rem;
+      border-radius: 0.2rem;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+	<h1>Initializer Example</h1>
+
+  <p>The initializer decorator allows you to setup Mutation observers on Light DOM Content</p>
+
+	<initializer-example>
+    <input type="text" value="Hello World"></input>
+  </initializer-example>
+
+  <p>You can also set a customizable error message to console if no Light DOM is present:</p>
+  <initializer-example><!-- No Light DOM --></initializer-example>
+
+  <script type="module" src="./out-tsc/src/decorators/initializer.js"></script>
+
+</body>
+
+</html>
