@@ -9,13 +9,54 @@ export class RhElement extends LitElement {
     return html`
       <pfe-band>
         <ul>
-          <li><pfe-cta><a href="./demo/core/context-api">Context API</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/core/track-performance">Track Performance</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/core/number-list-converter">Number List Converter</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/core/composed-event">Composed Event</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/controllers/color-context-controller">Color Context Controller</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/functions/get-random-id">Random ID</a></pfe-cta></li>
-          <li><pfe-cta><a href="./demo/decorator/cascade-decorator">Cascade Decorator</a></pfe-cta></li>
+          <li>
+            <pfe-cta><a href="./demo/core/context-api">Context API</a></pfe-cta>
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/core/track-performance"
+                >Track Performance</a
+              ></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/core/number-list-converter"
+                >Number List Converter</a
+              ></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/core/composed-event">Composed Event</a></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/controllers/color-context-controller"
+                >Color Context Controller</a
+              ></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/functions/get-random-id">Random ID</a></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/decorators/cascade"
+                >Cascade Decorator</a
+              ></pfe-cta
+            >
+          </li>
+          <li>
+            <pfe-cta
+              ><a href="./demo/decorators/initializer"
+                >Initializer Decorator</a
+              ></pfe-cta
+            >
+          </li>
         </ul>
       </pfe-band>
     `;
