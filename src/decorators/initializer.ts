@@ -28,7 +28,7 @@ export class InitializerExample extends LitElement {
     if (this.input) {
       return html`
         <slot></slot>
-        <button @click="${this._handleClick}">Change input value</button>
+        <button @click="${this._handleClick}">Increment input value</button>
         <span class="check hide">✅ Mutation Observer triggered</span>
       `;
     }
@@ -47,15 +47,18 @@ export class InitializerExample extends LitElement {
     this.input = this.querySelector('input') || null;
     this.span = this.shadowRoot?.querySelector('span.check') || null;
 
-    if (this.input?.value === "Goodbye") {
-      this.span?.classList.toggle("hide");
+    if (this.input && this.input?.valueAsNumber > 0 ) {
+      this.span?.classList.remove("hide");
     }
   }
 
   private _handleClick() {
-    if (this.input)
+    if (this.input) {
       // By setting the attribute on the input it triggers the mutation observer to run _init() again.
-      this.input.setAttribute("value", "Goodbye");
+      let i:number = this.input.valueAsNumber;
+      i += 1;
+      this.input.setAttribute("value", i.toString());
+    }
   }
 
 }
